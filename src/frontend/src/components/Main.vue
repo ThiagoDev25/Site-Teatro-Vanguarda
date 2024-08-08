@@ -1,5 +1,5 @@
 <template>
-    <main class="main">
+    <div class="main">
         <div class="parallax">
             <div class="container">
                 <div class="text-Container">
@@ -13,5 +13,5 @@
             </div>
 
         </div>
-    </main>
+    </div>
 </template>

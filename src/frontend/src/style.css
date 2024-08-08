@@ -7,6 +7,9 @@ a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
+  border-radius: 10px;
+  padding: 10px;
+  
 }
 
 a:hover {
@@ -17,6 +20,17 @@ a:hover {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  justify-items: flex-start;
+
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
 
 }
 
@@ -29,6 +43,49 @@ nav {
   height: 8vh;
 }
 
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+
+}
+
+.list-item {
+  list-style: none;
+  margin: 0 10px;
+}
+
 .main {
-  
+  display: flex;
+  /* min-height: 1000px;
+  min-width: 1000px; */
+  height: 100vh;
+  width: 100vw;
+  margin-top: 40px;
+
+}
+
+
+.parallax {
+  min-height: 100%;
+  max-width: 100%;
+  background-image: url('assets/img/bg01.jpg') ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  min-height: 80%;
+  max-width: 100%;
+  margin-top: 50px;
+  margin-top: 50px;
+}
+
+.text-Container {
+  margin-left: ;
+  columns: 2;
+  column-gap: 5px;
 }
